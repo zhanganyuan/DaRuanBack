@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - daruan_sqlite@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="daruan_sqlite">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="daruan"/>
+    <schema id="3" name="information_schema"/>
+    <schema id="4" name="mysql"/>
+    <schema id="5" name="performance_schema"/>
+    <schema id="6" name="rdatabase"/>
+    <schema id="7" name="sakila"/>
+    <schema id="8" name="sys"/>
+    <schema id="9" name="test"/>
+    <schema id="10" name="world"/>
+    <schema id="11" name="xf_database"/>
+    <table id="12" parent="1" name="download_items"/>
+    <table id="13" parent="1" name="favorited_items"/>
+    <table id="14" parent="1" name="history_records"/>
+    <table id="15" parent="1" name="subscribed_channels"/>
+    <table id="16" parent="1" name="user_info"/>
+    <column id="17" parent="12" name="title">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="18" parent="12" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="19" parent="12" name="link">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="20" parent="12" name="pubDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="21" parent="12" name="file_location">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="22" parent="12" name="channel_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="23" parent="12" name="PRIMARY">
+      <columns>link</columns>
+      <primary>1</primary>
+    </key>
+    <column id="24" parent="13" name="title">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="25" parent="13" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="26" parent="13" name="link">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="27" parent="13" name="pubDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="28" parent="13" name="channel_ID">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="29" parent="13" name="PRIMARY">
+      <columns>link</columns>
+      <primary>1</primary>
+    </key>
+    <column id="30" parent="14" name="title">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="31" parent="14" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="32" parent="14" name="link">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="33" parent="14" name="pubDate">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="34" parent="14" name="channel_ID">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="35" parent="14" name="PRIMARY">
+      <columns>link</columns>
+      <primary>1</primary>
+    </key>
+    <column id="36" parent="15" name="channel_ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="37" parent="15" name="link">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="38" parent="15" name="title">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="39" parent="15" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="40" parent="15" name="lastBuildDate">
+      <data-type>date|0</data-type>
+    </column>
+    <key id="41" parent="15" name="PRIMARY">
+      <columns>channel_ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="42" parent="16" name="user_ID">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="43" parent="16" name="NickName">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="44" parent="16" name="user_img">
+      <mandatory>1</mandatory>
+      <data-type>longblob|0</data-type>
+    </column>
+    <key id="45" parent="16" name="PRIMARY">
+      <columns>user_ID</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
