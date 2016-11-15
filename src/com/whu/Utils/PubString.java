@@ -1,4 +1,4 @@
-package Utils;
+package com.whu.Utils;
 
 /**
  * Created by anyuan on 2016/11/10.

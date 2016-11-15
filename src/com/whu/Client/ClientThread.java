@@ -1,17 +1,13 @@
-package Client;
+package com.whu.Client;
 
-import Module.DataBase.ServserDB.Channel;
-import Module.DataBase.ServserDB.User_favorited_item;
-import Module.DataBase.ServserDB.User_info;
-import Module.DataBase.ServserDB.User_subscribed_channel;
-import Module.transfer.Reply;
-import Module.transfer.Request;
-import Utils.PubString;
-import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
+import com.whu.Module.DataBase.ServserDB.Channel;
+import com.whu.Module.DataBase.ServserDB.User_favorited_item;
+import com.whu.Module.DataBase.ServserDB.User_info;
+import com.whu.Module.DataBase.ServserDB.User_subscribed_channel;
+import com.whu.Module.transfer.Reply;
+import com.whu.Module.transfer.Request;
+import com.whu.Utils.PubString;
 
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.awt.image.RenderedImage;
 import java.io.*;
 import java.net.Socket;
 import java.sql.SQLException;

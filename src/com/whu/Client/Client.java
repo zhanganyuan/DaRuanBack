@@ -1,7 +1,7 @@
-package Client;
+package com.whu.Client;
 
-import Module.transfer.Request;
-import Utils.PubString;
+import com.whu.Module.transfer.Request;
+import com.whu.Utils.PubString;
 
 /**
  * Created by anyuan on 2016/11/10.

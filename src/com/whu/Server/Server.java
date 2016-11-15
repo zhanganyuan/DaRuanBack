@@ -1,4 +1,4 @@
-package Server;
+package com.whu.Server;
 
 import java.io.IOException;
 import java.net.InetAddress;

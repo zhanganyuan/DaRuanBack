@@ -1,6 +1,6 @@
-package Module.transfer;
+package com.whu.Module.transfer;
 
-import Utils.PubString;
+import com.whu.Utils.PubString;
 
 import java.io.Serializable;
 import java.util.ArrayList;

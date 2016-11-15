@@ -1,4 +1,4 @@
-package Module.transfer;
+package com.whu.Module.transfer;
 
 import java.io.Serializable;
 import java.util.Map;

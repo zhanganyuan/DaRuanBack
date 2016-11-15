@@ -1,4 +1,4 @@
-package Module.DataBase.ServserDB;
+package com.whu.Module.DataBase.ServserDB;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

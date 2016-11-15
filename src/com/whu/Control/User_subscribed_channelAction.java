@@ -1,7 +1,7 @@
-package Control;
+package com.whu.Control;
 
-import DAO.User_subscribed_channelDao;
-import Module.DataBase.ServserDB.User_subscribed_channel;
+import com.whu.DAO.User_subscribed_channelDao;
+import com.whu.Module.DataBase.ServserDB.User_subscribed_channel;
 
 import java.sql.SQLException;
 import java.util.List;

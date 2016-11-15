@@ -1,7 +1,7 @@
-package DAO;
+package com.whu.DAO;
 
-import Module.DataBase.ServserDB.User_favorited_item;
-import Utils.DBUtil;
+import com.whu.Module.DataBase.ServserDB.User_favorited_item;
+import com.whu.Utils.DBUtil;
 
 import java.sql.*;
 import java.util.ArrayList;

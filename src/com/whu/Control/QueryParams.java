@@ -1,4 +1,4 @@
-package Control;
+package com.whu.Control;
 
 import java.util.ArrayList;
 import java.util.HashMap;

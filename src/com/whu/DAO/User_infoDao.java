@@ -1,7 +1,7 @@
-package DAO;
+package com.whu.DAO;
 
-import Module.DataBase.ServserDB.User_info;
-import Utils.DBUtil;
+import com.whu.Module.DataBase.ServserDB.User_info;
+import com.whu.Utils.DBUtil;
 import com.sun.xml.internal.messaging.saaj.util.ByteInputStream;
 
 import java.awt.*;

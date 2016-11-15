@@ -1,7 +1,7 @@
-package Control;
+package com.whu.Control;
 
-import DAO.User_favorited_itemDao;
-import Module.DataBase.ServserDB.User_favorited_item;
+import com.whu.DAO.User_favorited_itemDao;
+import com.whu.Module.DataBase.ServserDB.User_favorited_item;
 
 import java.sql.SQLException;
 import java.util.List;

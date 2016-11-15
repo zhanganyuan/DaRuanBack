@@ -1,7 +1,7 @@
-package DAO;
+package com.whu.DAO;
 
-import Module.DataBase.ServserDB.Channel;
-import Utils.DBUtil;
+import com.whu.Module.DataBase.ServserDB.Channel;
+import com.whu.Utils.DBUtil;
 
 import java.sql.*;
 import java.util.ArrayList;

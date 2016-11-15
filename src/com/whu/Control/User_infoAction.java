@@ -1,7 +1,7 @@
-package Control;
+package com.whu.Control;
 
-import DAO.User_infoDao;
-import Module.DataBase.ServserDB.User_info;
+import com.whu.DAO.User_infoDao;
+import com.whu.Module.DataBase.ServserDB.User_info;
 
 import java.io.IOException;
 import java.sql.SQLException;
